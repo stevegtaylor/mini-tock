@@ -3,5 +3,4 @@
 // Copyright Tock Contributors 2024.
 
 pub mod basic;
-pub mod signature;
 pub mod tbf;

@@ -7,4 +7,3 @@ pub mod assigner_tbf;
 pub mod checker;
 pub mod checker_null;
 pub mod checker_sha;
-pub mod checker_signature;

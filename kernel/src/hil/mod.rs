@@ -35,7 +35,6 @@ pub mod rng;
 pub mod screen;
 pub mod sdi12;
 pub mod sensors;
-pub mod servo;
 pub mod spi;
 pub mod symmetric_encryption;
 pub mod text_screen;
