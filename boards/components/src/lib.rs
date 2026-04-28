@@ -4,10 +4,8 @@
 
 #![no_std]
 
-pub mod adc;
 pub mod aes;
 pub mod alarm;
-pub mod analog_comparator;
 pub mod apds9960;
 pub mod app_flash_driver;
 pub mod app_loader;
@@ -16,17 +14,12 @@ pub mod ble;
 pub mod bme280;
 pub mod bmm150;
 pub mod bmp280;
-pub mod bus;
 pub mod button;
-pub mod button_keyboard;
-pub mod can;
 pub mod ccs811;
 pub mod cdc;
 pub mod chirp_i2c_moisture;
 pub mod console;
-pub mod crc;
 pub mod ctap;
-pub mod dac;
 pub mod date_time;
 pub mod debug_writer;
 pub mod dfrobot_rainfall_sensor;
@@ -34,19 +27,16 @@ pub mod dynamic_binary_storage;
 pub mod eui64;
 pub mod flash;
 pub mod fm25cl;
-pub mod ft6x06;
 pub mod fxos8700;
 pub mod gpio;
-pub mod hd44780;
 pub mod hmac;
 pub mod hs3003;
 pub mod hts221;
 pub mod humidity;
 pub mod i2c;
-pub mod ieee802154;
+
 pub mod isolated_nonvolatile_storage;
 pub mod keyboard_hid;
-pub mod kv;
 pub mod l3gd20;
 pub mod led;
 pub mod led_matrix;
@@ -60,26 +50,16 @@ pub mod process_console;
 pub mod process_info_driver;
 pub mod process_printer;
 pub mod proximity;
-pub mod pwm;
 pub mod rainfall;
-pub mod rf233;
+
 pub mod rng;
 pub mod sched;
-pub mod screen;
-pub mod screen_adapters;
-pub mod screen_on;
+
 pub mod segger_rtt;
 pub mod spi;
 pub mod storage_permissions;
 pub mod temperature;
-pub mod temperature_rp2040;
-pub mod temperature_stm;
 pub mod test;
-pub mod text_screen;
-pub mod thread_network;
 pub mod tickv;
-pub mod touch;
-pub mod udp_driver;
-pub mod udp_mux;
 pub mod usb;
 pub mod virtual_scheduler_timer;

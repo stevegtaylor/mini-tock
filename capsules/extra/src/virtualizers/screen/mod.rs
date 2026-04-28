@@ -8,5 +8,3 @@
 //! that two users both have an abstraction that they completely own the
 //! screen. There may be multiple ways around this, and hence multiple
 //! virtualizers.
-
-pub mod virtual_screen_split;

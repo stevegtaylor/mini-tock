@@ -10,7 +10,6 @@ pub mod test;
 #[macro_use]
 pub mod stream;
 
-pub mod adc;
 pub mod alarm;
 pub mod button;
 pub mod console;
