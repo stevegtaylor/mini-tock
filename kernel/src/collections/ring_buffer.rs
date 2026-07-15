@@ -3,7 +3,11 @@
 // Copyright Tock Contributors 2022.
 
 //! Implementation of a ring buffer.
-
+//!
+/// [SCOPE: Module]
+/// [BLAST_RADIUS: 10]
+/// [ASSURANCE: 0]
+/// [DESCRIPTION: ]
 use crate::collections::queue;
 
 pub struct RingBuffer<'a, T: 'a> {

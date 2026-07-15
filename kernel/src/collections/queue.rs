@@ -3,7 +3,10 @@
 // Copyright Tock Contributors 2022.
 
 //! Interface for queue structure.
-
+/// [SCOPE: Module]
+/// [BLAST_RADIUS: 10]
+/// [ASSURANCE: 9]
+/// [DESCRIPTION: ]
 pub trait Queue<T> {
     /// Returns true if there are any items in the queue, false otherwise.
     fn has_elements(&self) -> bool;

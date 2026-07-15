@@ -7,6 +7,10 @@
 //! `ProcessStandard` is an implementation for a userspace process running on
 //! the Tock kernel.
 
+/// [SCOPE: Module]
+/// [BLAST_RADIUS: 10]
+/// [ASSURANCE: 7]
+/// [DESCRIPTION: ]
 use core::cell::Cell;
 use core::cmp;
 use core::fmt::Write;
